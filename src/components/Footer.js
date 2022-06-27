@@ -6,13 +6,7 @@ import "./../assets/style/Footer.css";
 export default function Footer() {
   return (
     <>
-      <div
-        className="header h-16 flex text-center justify-between mt-20 mb-10"
-        style={{
-          padding: "0px",
-          alignItems: "center",
-        }}
-      >
+      <div className="footer" style={{}}>
         {/* Left */}
         <div className="left w-auto flex">
           <div className="company_name">
@@ -25,24 +19,13 @@ export default function Footer() {
             />
           </div>
 
-          <nav
-            className="navbar"
-            style={{
-              display: "flex",
-              listStyle: "none",
-              justifyContent: "center",
-              textAlign: "center",
-              alignItems: "center",
-              marginRight: "40px",
-              marginLeft: "30px",
-            }}
-          >
+          <nav className="navbar" style={{}}>
             <li
               style={{
                 fontFamily: "Inter",
                 fontSize: "16px",
                 color: "#FAFAFA",
-                marginRight: "20px",
+                marginLeft: "10px",
               }}
             >
               How It Works
@@ -53,6 +36,7 @@ export default function Footer() {
                 fontSize: "16px",
                 color: "#FAFAFA",
                 marginRight: "20px",
+                marginLeft: "10px",
               }}
             >
               Team
@@ -61,18 +45,12 @@ export default function Footer() {
         </div>
 
         {/* Right */}
-        <div className="w-full">
-          <div
-            className=""
-            style={{
-              color: "white",
-              padding: "10px",
-              borderRadius: "100px",
-              display: "flex",
-              width: "60%",
-              justifyContent: "space-around"
-            }}
-          >
+        <div
+          className="w-full"
+          style={{
+          }}
+        >
+          <div className="svg_group" style={{}}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="30"
