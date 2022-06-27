@@ -195,6 +195,7 @@
   transform: translateX(-50%);
   margin-left: 50%;
   border: 1px solid white;
+  border-radius: 40px;
   align-items: center;
 }
 

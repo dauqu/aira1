@@ -266,9 +266,10 @@ export default function Work() {
               fontSize: "2rem",
               textAlign: "center",
               paddingBottom: "20px",
+              marginTop:"20px",
             }}
           >
-            Our Growth Strategy
+            Growth Strategy
           </p>
           <div
             className="grid grid-cols-2 mt-20 grid-rows-2 gap-10 sec-3-grid"
