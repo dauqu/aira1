@@ -228,8 +228,8 @@ export default function Work() {
           </p>
           <p className="sec-2-subtitle" style={{ textAlign: "center" }}>
             We aim to provide users with a simple to interact process with
-            detailed explanations unlike our competitors. We want to
-            stay away from creating unnecessary complicated design.
+            detailed explanations unlike our competitors. We want to stay away
+            from creating unnecessary complicated design.
           </p>
         </div>
 
@@ -260,7 +260,16 @@ export default function Work() {
         }}
       >
         <div style={{}}>
-          <p className="sec-3-title">Our Growth Strategy</p>
+          <p
+            className="sec-2-title"
+            style={{
+              fontSize: "2rem",
+              textAlign: "center",
+              paddingBottom: "20px",
+            }}
+          >
+            Our Growth Strategy
+          </p>
           <div
             className="grid grid-cols-2 mt-20 grid-rows-2 gap-10 sec-3-grid"
             style={{}}
@@ -292,7 +301,11 @@ export default function Work() {
         }}
       >
         <div style={{}}>
-          <p className="sec-4-heading" style={{}}>
+          <p className="sec-4-heading" style={{
+              fontSize: "2rem",
+              textAlign: "center",
+              paddingBottom: "20px",
+            }}>
             Our Roadmap
           </p>
           <p className="sec-4-subheading" style={{}}>
